@@ -1,0 +1,77 @@
+﻿.Wallpaper {
+    width: 100%;
+    height: 15rem;
+    background-color: #fff7f4;
+}
+
+
+.icone {
+    padding-left: 2rem;
+}
+
+
+.FotoCactoPerfil {
+    margin-left: 25%;
+    width: 8rem;
+    padding-top: 10%;
+}
+
+.Fundotela1 {
+    background-color: #ffefe3;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    width: 63%;
+}
+
+.Nome {
+    font-size: xx-large;
+    text-align: start;
+    margin-left: 6%;
+}
+
+.Iconelapis {
+    margin-left: 65%;
+}
+
+.Descrição {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: start;
+    margin-top: 1%;
+    margin-left: 6%;
+}
+
+.Meuseventosbotão {
+    color: #131212;
+    width: 60%;
+    height: 75px;
+    margin-top: 3%;
+    margin-left: 19%;
+    margin-bottom: 1.5rem;
+}
+
+.Fundotela2 {
+    width: 62%;
+    background-color: #ffefe3;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.Nome2 {
+    font-size: x-large;
+    text-align: start;
+    margin-left: 6%;
+    padding-top: 1.5rem;
+}
+
+.Fundotela2 img {
+    border-radius: 10%;
+}
+
+.VerMaisbotão {
+    color: #131212;
+    margin-top: 3%;
+    margin-left: 82%;
+}

@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EventPlan</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar d-flex container-fluid">
+            <!-- offcanvas -->
+            <div class="d-flex offcanvas-logo">
+                <div class="sidebar-botao">
+                    <button class="btn btn-outline-secondary h-100 d-inline-block sidebar-botao"
+                            type="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions"
+                            aria-controls="offcanvasWithBothOptions">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+                <div class="offcanvas offcanvas-start"
+                     data-bs-scroll="true"
+                     tabindex="-1"
+                     id="offcanvasWithBothOptions"
+                     aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <button type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        <h5 class="offcanvas-title"
+                            id="offcanvasWithBothOptionsLabel"></h5>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="darkmode-button">
+                            <!-- darkmode -->
+                            <div class="form-check form-switch">
+                                <input type="checkbox"
+                                       class="form-check-input"
+                                       id="checkbox"
+                                       onclick="setDarkMode()" />
+                                <label for="checkbox" class="form-check-label">
+                                    <i class="bi bi-moon"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="icone">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                        <img src="~/img/LogoBranco.png"
+                             class="logo"
+                             alt="Logo do nosso site"
+                             width="176"
+                             height="41" />
+                    </a>
+                </div>
+            </div>
+            <!-- Pesquisa -->
+            <div class="d-flex pesquisa-perfil">
+                <div class="pesquisa-nav">
+                    <div class="search-box">
+                        <input type="text" class="search-input" placeholder="Pesquise Aqui">
+                        <a class="search-btn" href="#">
+                            <!-- Seach Icon -->
+                            <i class="bi bi-search"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Perfil -->
+                <div class="icone perfil text-center">
+                    <a asp-area="" asp-controller="Logins" asp-action="Index">
+                        <i class="bi bi-person-circle icon-sidebar icone-perfil"> </i>
+                    </a>
+                    <p class="d-md-block d-xl-block d-sm-none d-none">
+                        <a class="login" asp-area="" asp-controller="Logins" asp-action="Index">Login</a>
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+    <footer class="text-center container-fluid">
+        <section class="row">
+            <div class="col">
+                <h4><a href=#>Sobre nós</a></h4>
+                <p>
+                    Nosso site EventPlan, surgiu de um trabalho interdiciplinar
+                    elaborado por estudantes da Fatec Matão-Luiz Marchesan, com o
+                    intuito de facilitar a busca por eventos e festas de uma maneira
+                    muito mais facil e pratica
+                </p>
+            </div>
+            <div class="col">
+                <img src="~/img/LogoBranco.png" class="logo" alt="logo do nosso site" />
+            </div>
+            <div class="col d-flex flex-column">
+                <h4>Ajuda</h4>
+                <a href="#">Central de ajuda</a>
+                <a href="#">Compradores e participantes</a>
+                <a href="#">Produtores de eventos</a>
+            </div>
+        </section>
+        <section>
+            <div class="titulo-contato">
+                <p>Contatos</p>
+                <div class="contatos">
+                    <i class="bi bi-facebook p-1"></i>
+                    <i class="bi bi-linkedin p-1"></i>
+                    <i class="bi bi-twitter p-1"></i>
+                    <i class="bi bi-instagram p-1"></i>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/js/site.js" />
+
+    @await RenderSectionAsync("Scripts", required: false)
+</html>

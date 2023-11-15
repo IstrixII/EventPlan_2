@@ -1,0 +1,49 @@
+﻿@model Teste1.Models.Pessoa
+@{
+    ViewData["Title"] = "Login";
+}
+@{
+
+
+
+    <link rel="stylesheet" href="~/css/style-login.css" asp-append-version="true" />
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="Logo">
+                    <a href="../Home/index.html">
+                        <img src="~/img/logoPreto.svg" alt="EventPlan" class="login-logo" />
+                    </a>
+                </div>
+
+                <form method="post" asp-action="Login">
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                    <div class="label-float">
+                        <label asp-for="Email" id="labelEmail" class="control-label">E-mail:</label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="label-float">
+                        <label asp-for="Senha" id="senha" class="control-label">Senha:</label>
+                        <input asp-for="Senha" type="password" class="form-control" />
+                        <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                        <span asp-validation-for="Senha" class="text-danger"></span>
+                        <a class="Esqueceu" asp-action="AlterarSenha">Esqueceu a senha?</a>
+                    </div>
+
+                    <div class="justify-center">
+                        <button type="submit" class="botao-login">Login</button>
+                    </div>
+                </form>
+
+                <div class="justify-center">
+                    <a asp-area="" asp-controller="Logins" asp-action="Cadastro">
+                        <button class="botao-cadastro">Cadastre-se</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+}

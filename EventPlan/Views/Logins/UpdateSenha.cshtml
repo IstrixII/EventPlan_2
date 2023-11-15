@@ -1,0 +1,38 @@
+﻿@model Teste1.Models.Pessoa
+
+@{
+
+    <link rel="stylesheet" href="~/css/style-login.css" asp-append-version="true" />
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="Logo">
+                    <a href="../Home/index.html">
+                        <img src="~/img/logoPreto.svg" alt="EventPlan" class="login-logo" />
+                    </a>
+                </div>
+
+                <form asp-action="AlterarSenha">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="label-float">
+                        <label asp-for="Email" id="labelEmail" >E-mail:</label>
+                        <input asp-for="Email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="label-float">
+                        <label asp-for="Senha" id="senha" >Senha:</label>
+                        <input asp-for="Senha" type="password" />
+                        <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                        <span asp-validation-for="Senha" class="text-danger"></span>
+                    </div>
+
+                    <div class="justify-center">
+                        <button type="submit" class="botao-login">Alterar Senha</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+}

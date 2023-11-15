@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  flex-direction: row;
+  justify-content: start;
+}
+.burger {
+  color: black;
+}
+
+.icon-sidebar {
+  font-size: 50px;
+}
+
+.sidebar-botao {
+  background-color: #4b0082;
+  border: none;
+}
+
+.login{
+  color: #e7480e;
+}
+
+.login:visited{
+  color: #e7480e;
+}
+
+.icone{
+  padding-left: 2rem;
+}
+
+nav {
+  background-image: linear-gradient(
+    to right,
+    rgba(75, 0, 130, 1),
+    rgba(255, 235, 205, 1)
+  );
+}
+
+/* Dark Mode */
+.darkmode {
+  background-color: rgb(41, 41, 41);
+  color: azure;
+}
+
+
+
+/* Cor icons */
+.botao-pesquisa {
+  background-color: none;
+}
+
+.bi-gear-fill {
+  color: #e7480e;
+}
+
+.config {
+  color: #e7480e;
+}
+
+.bi-search {
+  color: #e7480e;
+}
+
+.bi-list {
+  color: #e7480e;
+  font-size: 30px;
+}
+
+.icone p {
+  color: #e7480e;
+}
+
+.icone-perfil {
+  font-size: 30px;
+  color: #e7480e;
+}
+
+.botao-home {
+  color: #e7480e;
+}
+
+.navbar .dropdown-toggle::after {
+  color: #e7480e;
+}
+
+/* Media query */
+@media (min-width: 600px) {
+  .sidebar-botao {
+    padding-left: 1rem;
+  }
+  .config:last-child {
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .logo {
+    width: 140px;
+    height: 60px;
+  }
+}
+
+/* css Main */
+main {
+  padding-top: 0.5rem;
+}
+
+.compra{
+  margin-bottom: 1rem;
+}
+
+main i{
+  font-size: 30px;
+  padding: 0.2rem;
+}
+
+main section{
+  background: rgba(231, 72, 14, 0.25);
+  padding: 1rem;
+}
+
+main>div {
+  background: rgba(231, 72, 14, 0.25);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+
+/* css footer */
+footer {
+  background-color: rgba(75, 0, 130, 0.5);
+  width: 100%;
+  padding: 30px;
+
+}
+
+.logo {
+  width: "220";
+}
+
+:link {
+  text-decoration: none;
+}
+
+
+a:visited {
+  color:#212529;
+}
+
+footer a{
+  color: #212529;
+}
+
+.compra button{
+  background: rgba(231, 72, 14, 0.25);
+}
+
+a:hover{
+  color: #e7480e;
+}

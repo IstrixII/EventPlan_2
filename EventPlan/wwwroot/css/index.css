@@ -1,0 +1,78 @@
+﻿@media (min-width: 600px) {
+    .sidebar-botao {
+        padding-left: 1rem;
+    }
+
+    .config:last-child {
+        padding-right: 4rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .logo {
+        width: 140px;
+        height: 60px;
+    }
+}
+
+/* css Main */
+
+.container {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/*.carousel-item img {
+    height: 100%;
+    width:100%
+    
+}
+*/
+.cards-main {
+    padding-left: 0.5rem;
+}
+
+main {
+    width: 100%;
+}
+
+.cards-duo {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+
+
+.primeira_fileira {
+    padding-top: 1rem;
+}
+
+.buttonVerMais {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.buttonVerMais {
+    background-color: transparent;
+    border-color: #e7480e;
+    color: #e7480e;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .2s ease-out;
+}
+
+    .buttonVerMais:hover {
+        background-color: #e7480e;
+        color: #000000;
+    }
+
+.evento a {
+    color: #000;
+}

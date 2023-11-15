@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Perfil";
+}
+@{
+
+    <link rel="stylesheet" href="~/css/style-pefil.css" asp-append-version="true" />
+
+    <main>
+        <div class="Wallpaper">
+            <img src="~/img/PerfilEventPlan.png"
+                 class="FotoCactoPerfil img-fluid"
+                 alt="imagem de perfil de um cacto com oculos" />
+        </div>
+
+        <section>
+            <div class="Fundotela1 container-fluid">
+                <h1 class="Nome">
+                    <br />
+                    EventPlan <i class="bi bi-pencil Iconelapis"></i>
+                </h1>
+                <br /><br />
+                <p class="Descrição">
+                    O EventPlan é um site de venda de ingressos para diferentes tipos de
+                    eventos realizados no Brasil. É possível comprar entradas para shows
+                    de artistas nacionais e internacionais, festivais de música, eventos
+                    esportivos,além de cinema, museu, apresentações de teatro, entre
+                    outros.
+                </p>
+
+                <button type="button"
+                        class="btn btn-outline-secondary Meuseventosbotão">
+                    Meus Eventos
+                </button>
+            </div>
+        </section>
+
+        <section class="container Fundotela2 text-center">
+            <p class="Nome2">Galeria</p>
+            <div class="w-100">
+                <img src="~/img/ARRAIAGERALDOAZEVENDOEventPlan.png"
+                     class="Arraia img-fluid p-2"
+                     alt="imagem promocional do arraia geraldo azevedo" />
+                <img src="~/img/dilsinhoEventPlan.jpg"
+                     class="Dilsinho img-fluid p-2"
+                     alt="imagem promocional do show do dilsinho" />
+
+                <img src="~/img/rbdEventPlan.jpg"
+                     class="Rebelde img-fluid p-2"
+                     alt="imagem promocional do show do rbd" />
+            </div>
+            <div class="w-100">
+                <img src="~/img/ABEventPlan.png"
+                     class="AB img-fluid p-2"
+                     alt="imagem promocional do concerto do Andrea Bocelli" />
+                <img src="~/img/ferrugemEventPlan.jpg"
+                     class="Ferrugem img-fluid p-2"
+                     alt="imagem promocional do show do ferrugem" />
+                <img src="~/img/ROBERTAEventPlan.png"
+                     class="Roberta img-fluid p-2"
+                     alt="imagem promocional do show da roberta sá" />
+            </div>
+            <button type="button" class="btn btn-outline-secondary VerMaisbotão">
+                <i class="bi bi-search Lupa"></i> Ver Mais
+            </button>
+        </section>
+    </main>
+}

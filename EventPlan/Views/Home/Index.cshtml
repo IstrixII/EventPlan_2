@@ -1,0 +1,180 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+}
+
+<main>
+    @* carrosel *@
+    <div id="carouselExampleAutoplaying"
+         class="carousel slide"
+         data-bs-ride="carousel">
+        <div class="carousel-inner" style="height:100%">
+            <div class="carousel-item h-100 active">
+                <img src="~/img/carrosel1.jpg" class="d-block w-100" alt="poster divulgatorio do show dos barbixas" />
+            </div>
+            <div class="carousel-item h-100">
+                <img src="~/img/carrosel2.jpg" class="d-block w-100" alt="poster divulgatorio do reveillon amopé" />
+            </div>
+            <div class="carousel-item h-100">
+                <img src="./img/2hjn5r1k736ftk9qfluocp5t7674r0vi5g4m99mhhsslnfpmpakidh3vnvl52skdcljkspnjcaku2idsqlfas091rda7hfl901u048g.jpeg"
+                     class="d-block w-100"
+                     alt="poster divulgatorio da turne do Tiago Iorc" />
+            </div>
+        </div>
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Eventos -->
+    <div class="d-flex cards-duo primeira_fileira">
+        <div class="card mb-3 cards-home" style="max-width: 540px">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./img/paulatoller-quadrado2-att-eventim-profilepicture.png"
+                         class="img-fluid rounded-start"
+                         alt="card do evento da turne da Paula Toller" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            PAULA TOLLER - TURNE AMOROSA - TOKIO MARINE HALL
+                        </h5>
+                        <p class="card-text">
+                            A carreira de Paula Toller se funde com a da banda Kid Abelha,
+                            um dos maiores fenômenos da música nacional
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 cards-home" style="max-width: 540px">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="../Evento/index.html">
+                        <img src="./img/9149fe676ac861b5dc5b4a91e05c2725.jpg"
+                             class="img-fluid rounded-start"
+                             alt="card do evento Iheart music festival">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body evento">
+                        <h5 class="card-title">
+                            <a href="../Evento/index.html">iHeart RADIO MUSIC FESTIVAL 2021</a>
+                        </h5>
+                        <p class="card-text">
+                            Agora em seu décimo terceiro ano, o iHeartRadio Music Festival anual é um festival de música de dois dias em Las Vegas que apresenta os maiores nomes de hoje - em gêneros e formatos…
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex cards-duo">
+        <div class="card mb-3 cards-home" style="max-width: 540px">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="../PaginaEvento/paginaEvento.html">
+                        <img src="./img/rc-balneariocamburiu-profile..png"
+                             class="img-fluid rounded-start img-card"
+                             alt="card do show do Roberto Carlos" />
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            ROBERTO CARLOS - BALNEÁRIO CAMBORIÚ
+                        </h5>
+                        <p class="card-text">
+                            Roberto Carlos faz show em Balneário de Camboriú e presenteia os
+                            fãs com uma noite inesquecível, em Balneário Camboriú
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 cards-home" style="max-width: 540px">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./img/mauriciomanieri-classics-palaciodasartes-eventim-profile.png"
+                         class="img-fluid rounded-start img-card"
+                         alt="card do evento do Mauricio Manieri" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            MAURICIO MANIERI COM O ESPETÁCULO "CLASSICS"
+                        </h5>
+                        <p class="card-text">
+                            Maurício Manieri apresenta megashow “Classics” no palco do
+                            Grande Teatro do Palácio das Artes, no dia 1º de julho
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex cards-duo">
+        <div class="card mb-3 cards-home" style="max-width: 540px">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./img/RODRIGOTEASER-TOKIOMARINE-EVENTIM-222x222.jpg"
+                         class="img-fluid rounded-start img-card"
+                         alt="card do evento do Rodrigo Teaser" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            RODRIGO TEASER - TRIBUTO AO REI DO POP - TOKIO MARINE HALL
+                        </h5>
+                        <p class="card-text">
+                            Desde pequeno, Rodrigo Teaser mostrava seu talento excepcional
+                            para a arte.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card mb-3 cards-home cards-duo" style="max-width: 540px">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./img/embalossabadonoite-palaciodasartes-eventim-profile.jpg"
+                         class="img-fluid rounded-start img-card"
+                         alt="card do evento embalos de sabado a noite" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            OS EMBALOS DE SÁBADO À NOITE – O MUSICAL
+                        </h5>
+                        <p class="card-text">
+                            No dia 02 de julho de 2023 (domingo), às 19h, o Grande Teatro
+                            CEMIG Palácio das Artes será palco do espetáculo
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="botao-home text-center">
+        <a href="#"><button class="buttonVerMais">Ver mais</button></a>
+    </div>
+</main>
