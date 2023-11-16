@@ -17,12 +17,20 @@
       "PackagePath": "staticwebassets\\css\\style-cadastro.css"
     },
     {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-evento.css",
+      "PackagePath": "staticwebassets\\css\\style-evento.css"
+    },
+    {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-login.css",
       "PackagePath": "staticwebassets\\css\\style-login.css"
     },
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-pefil.css",
       "PackagePath": "staticwebassets\\css\\style-pefil.css"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-sobre.css",
+      "PackagePath": "staticwebassets\\css\\style-sobre.css"
     },
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style.css",
@@ -35,6 +43,10 @@
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\2hjn5r1k736ftk9qfluocp5t7674r0vi5g4m99mhhsslnfpmpakidh3vnvl52skdcljkspnjcaku2idsqlfas091rda7hfl901u048g.jpeg",
       "PackagePath": "staticwebassets\\img\\2hjn5r1k736ftk9qfluocp5t7674r0vi5g4m99mhhsslnfpmpakidh3vnvl52skdcljkspnjcaku2idsqlfas091rda7hfl901u048g.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\4E341A41-383A-4CB9-9385-341DE1E1BE0E.jpg",
+      "PackagePath": "staticwebassets\\img\\4E341A41-383A-4CB9-9385-341DE1E1BE0E.jpg"
     },
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\9149fe676ac861b5dc5b4a91e05c2725.jpg",
@@ -53,8 +65,32 @@
       "PackagePath": "staticwebassets\\img\\ARTHURVEROCAI_EventPlan.png"
     },
     {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\BillieEilishIcon.jpg",
+      "PackagePath": "staticwebassets\\img\\BillieEilishIcon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\Cleston.jpeg",
+      "PackagePath": "staticwebassets\\img\\Cleston.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\ColdplayIcon.jpg",
+      "PackagePath": "staticwebassets\\img\\ColdplayIcon.jpg"
+    },
+    {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\DoceMaravilhaEventPlan.jpg",
       "PackagePath": "staticwebassets\\img\\DoceMaravilhaEventPlan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\DuaLipaBanner2.jpg",
+      "PackagePath": "staticwebassets\\img\\DuaLipaBanner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\DuaLipaIcon.jpg",
+      "PackagePath": "staticwebassets\\img\\DuaLipaIcon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\Felipe.jpeg",
+      "PackagePath": "staticwebassets\\img\\Felipe.jpeg"
     },
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\LogoBranco copy.png",
@@ -63,6 +99,14 @@
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\LogoBranco.png",
       "PackagePath": "staticwebassets\\img\\LogoBranco.png"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\OliviaRodrigoIcon.jpg",
+      "PackagePath": "staticwebassets\\img\\OliviaRodrigoIcon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\Pedro.jpeg",
+      "PackagePath": "staticwebassets\\img\\Pedro.jpeg"
     },
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\PerfilEventPlan.png",
@@ -79,6 +123,10 @@
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\RODRIGOTEASER-TOKIOMARINE-EVENTIM-222x222.jpg",
       "PackagePath": "staticwebassets\\img\\RODRIGOTEASER-TOKIOMARINE-EVENTIM-222x222.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\TateMcRaeIcon.jpg",
+      "PackagePath": "staticwebassets\\img\\TateMcRaeIcon.jpg"
     },
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\alguns-esportes-dependem-equipamentos-para-serem-praticados-5734865673029.jpg",
@@ -181,12 +229,20 @@
       "PackagePath": "staticwebassets\\img\\rc-balneariocamburiu-profile..png"
     },
     {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\rhian.jpeg",
+      "PackagePath": "staticwebassets\\img\\rhian.jpeg"
+    },
+    {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\stand-up-comedy-neon-sign-with-microphone-and-red-vector-19949351-800x445.jpg",
       "PackagePath": "staticwebassets\\img\\stand-up-comedy-neon-sign-with-microphone-and-red-vector-19949351-800x445.jpg"
     },
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\userlmn_9a44177d4062d324c37b32b3abc1b52b.png",
       "PackagePath": "staticwebassets\\img\\userlmn_9a44177d4062d324c37b32b3abc1b52b.png"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\js\\evento.js",
+      "PackagePath": "staticwebassets\\js\\evento.js"
     },
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\js\\site.js",

@@ -29,6 +29,22 @@ namespace Teste1.Controllers
             return View("Perfil");
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Login(Pessoa pessoa)
+        {
+            try
+            {
+                this.repository.comparacao(pessoa);
+                return RedirectToAction(nameof(Perfil));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+
 
         // GET: Login/Cadastro
         [HttpGet]
@@ -78,6 +94,12 @@ namespace Teste1.Controllers
             }
         }
 
+        //[HttpGet]
+        //public IActionResult Delete(int id)
+        //{
+        //    this.repository.deleteUser(id);
+        //    return RedirectToAction(nameof(Index));
+        //}
 
 
 

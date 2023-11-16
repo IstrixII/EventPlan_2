@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿    <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 
 </head>
 <body>
@@ -100,7 +99,7 @@
     <footer class="text-center container-fluid">
         <section class="row">
             <div class="col">
-                <h4><a href=#>Sobre nós</a></h4>
+                <h4><a asp-area="" asp-controller="Home" asp-action="Sobre">Sobre nós</a></h4>
                 <p>
                     Nosso site EventPlan, surgiu de um trabalho interdiciplinar
                     elaborado por estudantes da Fatec Matão-Luiz Marchesan, com o
@@ -135,7 +134,6 @@
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
-<script src="~/js/site.js" />
 
     @await RenderSectionAsync("Scripts", required: false)
 </html>

@@ -55,22 +55,42 @@ namespace Teste1.Repositories.ADO.SQLServer
             }
         }
 
-
-        //public void comparacao(Pessoa pessoa)
+        //public void deleteUser(int idPessoa) 
         //{
+
         //    using (SqlConnection connection = new SqlConnection(this.connectionString))
         //    {
         //        connection.Open();
+
         //        using (SqlCommand command = new SqlCommand())
         //        {
         //            command.Connection = connection;
-        //            command.CommandText = "SELECT email,senha FROM tb_pessoa";
-        //            command.Parameters.Add(new SqlParameter("@Email", System.Data.SqlDbType.VarChar)).Value = pessoa.Email;
-        //            command.Parameters.Add(new SqlParameter("@Senha", System.Data.SqlDbType.VarChar)).Value = pessoa.Senha;
-        //        }
+        //            command.CommandText = "delete from tb_pessoa where idPessoa = @idPessoa;";
+        //            command.Parameters.Add(new SqlParameter("@idPessoa", System.Data.SqlDbType.Int)).Value = idPessoa;
 
+        //            command.ExecuteNonQuery();
+        //        }
+                
         //    }
+
         //}
+
+
+        public void comparacao(Pessoa pessoa)
+        {
+           using (SqlConnection connection = new SqlConnection(this.connectionString))
+            {
+                connection.Open();
+               using (SqlCommand command = new SqlCommand())
+               {
+                    command.Connection = connection;
+                   command.CommandText = "SELECT email,senha FROM tb_pessoa";
+                  command.Parameters.Add(new SqlParameter("@Email", System.Data.SqlDbType.VarChar)).Value = pessoa.Email;
+                  command.Parameters.Add(new SqlParameter("@Senha", System.Data.SqlDbType.VarChar)).Value = pessoa.Senha;
+               }
+
+         }
+     }
 
     }
 }

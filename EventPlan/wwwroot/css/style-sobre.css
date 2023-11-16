@@ -1,0 +1,32 @@
+﻿.index {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+    .index .titulo-sobre h1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 60px;
+        color: #000;
+        padding-bottom: 25px;
+    }
+
+    .index .texto-sobre p {
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 30px;
+    }
+
+.foto-sobre {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+}
+
+
+
+.Nome {
+    margin-top: 2px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}

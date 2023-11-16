@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7CIjyqiU08VeOW9VUe5+pq0XF3OnvEdr+4lVS/4/I7E=",
+  "Hash": "xPDe13avhodPnoH7uh5W5egI6P8ovbFw9NAUN7ZoS7Y=",
   "Source": "Teste1",
   "BasePath": "_content/Teste1",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\css\\style-cadastro.css"
     },
     {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-evento.css",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "css/style-evento.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style-evento.css"
+    },
+    {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-login.css",
       "SourceId": "Teste1",
       "SourceType": "Discovered",
@@ -153,6 +170,23 @@
       "OriginalItemSpec": "wwwroot\\css\\style-pefil.css"
     },
     {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-sobre.css",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "css/style-sobre.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style-sobre.css"
+    },
+    {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\favicon.ico",
       "SourceId": "Teste1",
       "SourceType": "Discovered",
@@ -185,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\2hjn5r1k736ftk9qfluocp5t7674r0vi5g4m99mhhsslnfpmpakidh3vnvl52skdcljkspnjcaku2idsqlfas091rda7hfl901u048g.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\4E341A41-383A-4CB9-9385-341DE1E1BE0E.jpg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/4E341A41-383A-4CB9-9385-341DE1E1BE0E.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\4E341A41-383A-4CB9-9385-341DE1E1BE0E.jpg"
     },
     {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\9149fe676ac861b5dc5b4a91e05c2725.jpg",
@@ -272,6 +323,23 @@
       "OriginalItemSpec": "wwwroot\\img\\ARTHURVEROCAI_EventPlan.png"
     },
     {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\BillieEilishIcon.jpg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/BillieEilishIcon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\BillieEilishIcon.jpg"
+    },
+    {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\bitmap.svg",
       "SourceId": "Teste1",
       "SourceType": "Discovered",
@@ -323,6 +391,23 @@
       "OriginalItemSpec": "wwwroot\\img\\carrosel2.jpg"
     },
     {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\Cleston.jpeg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/Cleston.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Cleston.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\coldplayexperience-palaciodasartes-novadata-eventim-profile.jpg",
       "SourceId": "Teste1",
       "SourceType": "Discovered",
@@ -338,6 +423,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\coldplayexperience-palaciodasartes-novadata-eventim-profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\ColdplayIcon.jpg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/ColdplayIcon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\ColdplayIcon.jpg"
     },
     {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\como-organizar-um-evento-gastronomico-de-sucesso.jpeg",
@@ -459,6 +561,40 @@
       "OriginalItemSpec": "wwwroot\\img\\download 2.png"
     },
     {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\DuaLipaBanner2.jpg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/DuaLipaBanner2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\DuaLipaBanner2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\DuaLipaIcon.jpg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/DuaLipaIcon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\DuaLipaIcon.jpg"
+    },
+    {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\embalossabadonoite-palaciodasartes-eventim-profile.jpg",
       "SourceId": "Teste1",
       "SourceType": "Discovered",
@@ -491,6 +627,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\esportes.png"
+    },
+    {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\Felipe.jpeg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/Felipe.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Felipe.jpeg"
     },
     {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\ferrugemEventPlan.jpg",
@@ -646,6 +799,23 @@
       "OriginalItemSpec": "wwwroot\\img\\mauriciomanieri-classics-palaciodasartes-eventim-profile.png"
     },
     {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\OliviaRodrigoIcon.jpg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/OliviaRodrigoIcon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\OliviaRodrigoIcon.jpg"
+    },
+    {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\palestra-auditorio-scaled 1.png",
       "SourceId": "Teste1",
       "SourceType": "Discovered",
@@ -695,6 +865,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\paulatoller-quadrado2-att-eventim-profilepicture.png"
+    },
+    {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\Pedro.jpeg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/Pedro.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Pedro.jpeg"
     },
     {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\PerfilEventPlan.png",
@@ -765,6 +952,23 @@
       "OriginalItemSpec": "wwwroot\\img\\rc-balneariocamburiu-profile..png"
     },
     {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\rhian.jpeg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/rhian.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\rhian.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\ROBERTAEventPlan.png",
       "SourceId": "Teste1",
       "SourceType": "Discovered",
@@ -816,6 +1020,23 @@
       "OriginalItemSpec": "wwwroot\\img\\stand-up-comedy-neon-sign-with-microphone-and-red-vector-19949351-800x445.jpg"
     },
     {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\TateMcRaeIcon.jpg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/TateMcRaeIcon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\TateMcRaeIcon.jpg"
+    },
+    {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\userlmn_9a44177d4062d324c37b32b3abc1b52b.png",
       "SourceId": "Teste1",
       "SourceType": "Discovered",
@@ -831,6 +1052,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\userlmn_9a44177d4062d324c37b32b3abc1b52b.png"
+    },
+    {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\js\\evento.js",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "js/evento.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\evento.js"
     },
     {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\js\\site.js",
