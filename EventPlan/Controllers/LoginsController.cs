@@ -29,20 +29,20 @@ namespace Teste1.Controllers
             return View("Perfil");
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Login(Pessoa pessoa)
-        {
-            try
-            {
-                this.repository.comparacao(pessoa);
-                return RedirectToAction(nameof(Perfil));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public IActionResult Login(Pessoa pessoa)
+        //{
+        //    try
+        //    {
+        //        this.repository.comparacao(pessoa);
+        //        return RedirectToAction(nameof(Perfil));
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
 
 
 
@@ -75,23 +75,6 @@ namespace Teste1.Controllers
         public IActionResult AlterarSenha()
         {
             return View("UpdateSenha");
-        }
-
-
-        // POST: Login/Cadastro
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult AlterarSenha(Pessoa pessoa)
-        {
-            try
-            {
-                this.repository.updateSenha(pessoa);
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
         }
 
         //[HttpGet]
