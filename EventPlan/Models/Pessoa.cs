@@ -5,7 +5,7 @@ namespace Teste1.Models
 {
     public class Pessoa
     {
-        public int IdPessoa { get; set; }
+        public int Id_pessoa { get; set; }
         [Required(ErrorMessage = "Campo Nome é obrigatório!", AllowEmptyStrings = false)]
         [StringLength(80, MinimumLength = 3, ErrorMessage = "Mínimo de 3 e máximo de 80 caracteres.")]
         public string Nome { get; set; }
@@ -22,6 +22,8 @@ namespace Teste1.Models
 
         public string Foto { get; set; }
 
+        public string Descricao { get; set; }
+
 
         [Required(ErrorMessage = "Campo Email é obrigatório!", AllowEmptyStrings = false)]
         [EmailAddress(ErrorMessage = "Email inválido.")]
@@ -34,10 +36,12 @@ namespace Teste1.Models
         // Adicionando referência a Endereco
         public Endereco Endereco { get; set; }
 
+        public string ConfirmacaoSenha { get; set; }
+
 
         public Pessoa()
         {
-            IdPessoa = 0;
+            Id_pessoa = 0;
             Nome = string.Empty;
             Cpf = string.Empty;
             DataNascimento = DateTime.Now;
@@ -46,6 +50,8 @@ namespace Teste1.Models
             Foto = string.Empty;
             Senha = string.Empty;
             Endereco = new Endereco();
+            Descricao = string.Empty;
+
         }
 
 

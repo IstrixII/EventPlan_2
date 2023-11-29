@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\rhian\Desktop\EventPlan_2\EventPlan
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/rhian/Desktop/EventPlan_2/EventPlan/Views/CrudEvento/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZEV2ZW50b1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhian/Desktop/EventPlan_2/EventPlan/Views/CrudEvento/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZEV2ZW50b1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhian/Desktop/EventPlan_2/EventPlan/Views/CrudEvento/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZEV2ZW50b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhian/Desktop/EventPlan_2/EventPlan/Views/CrudEvento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZEV2ZW50b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhian/Desktop/EventPlan_2/EventPlan/Views/CrudUser/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFVzZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rhian/Desktop/EventPlan_2/EventPlan/Views/CrudUser/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFVzZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

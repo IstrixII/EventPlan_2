@@ -60,6 +60,11 @@ namespace Teste1.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Cadastro(Pessoa pessoa)
         {
+            if (pessoa.Senha != pessoa.ConfirmacaoSenha)
+            {
+                ModelState.AddModelError("ConfirmacaoSenha", "A senha e a confirmação de senha não correspondem.");
+                return View();
+            }
             try
             {
                 this.repository.add(pessoa);
@@ -77,12 +82,7 @@ namespace Teste1.Controllers
             return View("UpdateSenha");
         }
 
-        //[HttpGet]
-        //public IActionResult Delete(int id)
-        //{
-        //    this.repository.deleteUser(id);
-        //    return RedirectToAction(nameof(Index));
-        //}
+       
 
 
 

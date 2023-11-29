@@ -28,7 +28,7 @@
         @foreach (var item in Model) {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.IdPessoa)
+                    @Html.DisplayFor(modelItem => item.Id_pessoa)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Nome)
@@ -46,9 +46,9 @@
                         @Html.DisplayFor(modelItem => item.Email)
                     </td>
                 <td>
-                    @Html.ActionLink("Editar", "Edit", new { id=item.IdPessoa }) |
-                    @Html.ActionLink("Detalhes", "Details", new { id=item.IdPessoa }) |
-                    @Html.ActionLink("Remover", "Delete", new {  id=item.IdPessoa }, new { onclick = "return confirm('Deseja excluir este carro?');"})
+                    @Html.ActionLink("Editar", "Edit", new { id_pessoa=item.Id_pessoa }) |
+                    @Html.ActionLink("Detalhes", "Details", new { id_pessoa=item.Id_pessoa }) |
+                    @Html.ActionLink("Ativar/Desativar", "Delete", new {  id_pessoa=item.Id_pessoa }, new { onclick = "return confirm('Deseja desativar este usuario?');"})
                 </td>
             </tr>
         }

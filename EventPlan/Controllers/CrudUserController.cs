@@ -20,28 +20,41 @@ namespace Teste1.Controllers
             return View(this.repository.getAll());
         }
 
+        [HttpGet]
+        public IActionResult Details(int id_pessoa)
+        {
+            return View(this.repository.getByIdPessoa(id_pessoa));
+        }
+
 
 
         [HttpGet]
-        public IActionResult Edit(int idPessoa)
+        public IActionResult Edit(int id_pessoa)
         {
-            return View(this.repository.getByIdPessoa(idPessoa));
+            return View(this.repository.getByIdPessoa(id_pessoa));
         }
 
-        // POST : CarrosController/Edit
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int idPessoa, Pessoa pessoa)
+        public IActionResult Edit(int id_pessoa, Pessoa pessoa)
         {
             try
             {
-                this.repository.updatePessoa(idPessoa, pessoa);
+                this.repository.updatePessoa(id_pessoa, pessoa);
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
                 return View();
             }
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id_pessoa)
+        {
+            this.repository.deleteUser(id_pessoa);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

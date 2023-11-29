@@ -24,8 +24,14 @@ namespace Teste1.Models
         public decimal Preco { get; set; }
 
         public string Foto { get; set; }
-        [Required(ErrorMessage = "Campo Data é obrigatório!", AllowEmptyStrings = false)]
-        [Display(Name = "Data do Evento")]
-        public DateTime Data_evento { get; set; }
+        [Required(ErrorMessage = "Campo Data de Inicio é obrigatório!", AllowEmptyStrings = false)]
+        [Display(Name = "Data de Inicio")]
+        public DateTime  DataHora{ get; set; }
+
+        [Required(ErrorMessage = "Campo Data de Fim é obrigatório!", AllowEmptyStrings = false)]
+        [Display(Name = "Data do Fim")]
+        public DateTime DataFim { get; set; }
+
+
     }
 }
