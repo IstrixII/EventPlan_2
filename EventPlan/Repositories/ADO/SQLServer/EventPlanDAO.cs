@@ -109,6 +109,23 @@ namespace Teste1.Repositories.ADO.SQLServer
     }
 }
 
+        public bool EmailExists(string email)
+        {
+            using (SqlConnection connection = new SqlConnection(this.connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand())
+                {
+                    command.Connection = connection;
+                    command.CommandText = "SELECT COUNT(*) FROM tb_pessoa WHERE email = @Email";
+                    command.Parameters.Add(new SqlParameter("@Email", System.Data.SqlDbType.VarChar)).Value = email;
+
+                    int count = (int)command.ExecuteScalar();
+                    return count > 0;
+                }
+            }
+        }
+
         //Update User
         public void updatePessoa(int id_pessoa, Pessoa pessoa)
         {

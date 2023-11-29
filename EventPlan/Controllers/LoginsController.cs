@@ -65,6 +65,11 @@ namespace Teste1.Controllers
                 ModelState.AddModelError("ConfirmacaoSenha", "A senha e a confirmação de senha não correspondem.");
                 return View();
             }
+            if (this.repository.EmailExists(pessoa.Email))
+            {
+                ModelState.AddModelError("Email", "O email já está cadastrado.");
+                return View();
+            }
             try
             {
                 this.repository.add(pessoa);
