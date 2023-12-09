@@ -1,0 +1,158 @@
+﻿@{
+    <link rel="stylesheet" href="~/css/style-evento.css" asp-append-version="true" />
+    ViewData["Title"] = "Iheart";
+}
+
+<style>
+    .fade-in {
+        opacity: 0;
+        transform: translateY(80px);
+        transition: opacity 1.5s ease-out, transform 0.5s ease-out;
+    }
+
+    .appear {
+        opacity: 1;
+        transform: translateY(0);
+    }
+</style>
+<main>
+    <!--sec1-->
+    <div class="container-fluid banner">
+        <div class="sec1">
+            <div class="background-image">
+                <img src="~/img/DuaLipaBanner2.jpg" alt="Banner do evento" />
+                <div class="caption">
+                    <h1 class="fade-in">iHeart RADIO MUSIC FESTIVAL 2021</h1>
+                    <p class="fade-in">
+                        Agora em seu décimo terceiro ano, o iHeartRadio Music Festival anual é um festival de música de dois dias em Las Vegas que apresenta os maiores nomes de hoje - em diferentes gêneros e formatos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Dados do Evento-->
+    <div class="info">
+        <h2 class="fade-in">INFORMAÇÕES DO EVENTO</h2>
+        <p class="fade-in">Data: 17 de set. de 2021 - 18 de set. de 2021</p>
+        <p class="fade-in" class="link">Local: <a href="https://www.google.com/maps/place/T-Mobile+Arena/36.1010259,-115.1809253,16.25z/data=!4m6!3m5!1s0x80c8c4332388f181:0xed7176bcb1ef7767!8m2!3d36.102812!4d-115.178195!16s%2Fm%2F0w1d6gz?entry=ttu">T-Mobile Arena, Las Vegas Valley, Nevada, EUA</a></p1>
+        <p class="fade-in"><a href="https://3ddigitalvenue.com/3dmap/clients/tmobile-arena/">Visualizar o mapa de assentos</a></p>
+        <p class="fade-in ">Ingressos a partir de USD $56. <a href="#">Compre aqui.</a></p>
+    </div>
+
+
+    <!--sec2-->
+    <div class="sec2">
+        <div class="artista-wrapper">
+            <div class="artista">
+                <h2 class="fade-in">LINEUP</h2>
+
+                <div class="artista-list" id="icon">
+                    <div id="DuaLipa" class="artista-icon active fade-in">
+                        <img src="~/img/DuaLipaIcon.jpg" alt="imagem da Dua Lipa" />
+                    </div>
+                    <div id="BillieEilish" class="artista-icon fade-in">
+                        <img src="~/img/BillieEilishIcon.jpg" alt="image da Billie Eilish" />
+                    </div>
+                    <div id="Coldplay" class="artista-icon fade-in">
+                        <img src="~/img/ColdplayIcon.jpg" alt="imagem do coldplay" />
+                    </div>
+                    <div id="OliviaRodrigo" class="artista-icon fade-in">
+                        <img src="~/img/OliviaRodrigoIcon.jpg" alt="imagem da olivia rodrigo" />
+                    </div>
+                    <div id="TateMcRae" class="artista-icon fade-in">
+                        <img src="~/img/TateMcRaeIcon.jpg" alt="imagem da TateMcRae" />
+                    </div>
+                </div>
+
+                <div class="artista-info fade-in">
+                    <h6 class="artista-info-name">DUA LIPA</h6>
+                    <p class="artista-info-desc">
+                        Dua Lipa é uma cantora, compositora, atriz, dançarina e modelo
+                        anglo-albanesa. Nascida e criada em Londres e passando parte de
+                        sua adolescência, mais especificamente dos 13 aos 15 anos, em
+                        Pristina, Kosovo, Lipa é evidenciada ao mundo em 2017 com o seu
+                        sucesso New Rules
+                    </p>
+                </div>
+            </div>
+            <!--artista-wrapper-->
+        </div>
+        <!--sec2-->
+    </div>
+    <!--container-->
+</main>
+<script src="~/js/evento.js"></script>
+<script>
+    const artista = {
+        DuaLipa: [
+            "DuaLipaIcon",
+            "DUA LIPA",
+            "Dua Lipa é uma cantora, compositora, atriz, dançarina e modelo anglo-albanesa. Nascida e criada em Londres e passando parte de sua adolescência, mais especificamente dos 13 aos 15 anos, em Pristina, Kosovo, Lipa se destacou para o mundo em 2017 com seu sucesso New Rules.",
+        ],
+        BillieEilish: [
+            "BillieEilishIcon",
+            "BILLIE EILISH",
+            "Billie Eilish Pirate Baird O'Connell é uma cantora e compositora americana. Ela ganhou atenção do público pela primeira vez em 2015 com seu single de estreia Ocean Eyes, escrito e produzido por seu irmão Finneas O'Connell, com quem ela colabora em música e shows ao vivo.",
+        ],
+        Coldplay: [
+            "ColdplayIcon",
+            "COLDPLAY",
+            "Coldplay é uma banda britânica de rock formada em Londres em 1997. Eles consistem do vocalista e pianista Chris Martin, do guitarrista Jonny Buckland, do baixista Guy Berryman, do baterista Will Champion e do diretor criativo Phil Harvey.",
+        ],
+        OliviaRodrigo: [
+            "OliviaRodrigoIcon",
+            "OLIVIA RODRIGO",
+            "Olivia Isabel Rodrigo é uma cantora, compositora e atriz americana. Ela ganhou reconhecimento no final dos anos 2010 com seus papéis principais nos programas de televisão da Disney Bizaardvark e High School Musical: The Musical: The Series.",
+        ],
+        TateMcRae: [
+            "TateMcRaeIcon",
+            "TATE MCRAE",
+            "Tate Rosner McRae é uma cantora, compositora, dançarina e atriz canadense. Aos treze anos, ela ganhou destaque como a primeira finalista canadense no programa de TV americano So You Think You Can Dance.",
+        ],
+    };
+
+    document.querySelectorAll(".artista-icon").forEach((e) => {
+        e.addEventListener("click", () => {
+            document.querySelectorAll(".artista-icon").forEach((ele) => {
+                ele.classList.remove("active");
+            });
+
+            e.classList.add("active");
+
+            document.getElementById("icon").style = "opacity: 0";
+            document.querySelector(".artista-info").style = "opacity: 0";
+
+            setTimeout(() => {
+                document.getElementById("icon").src =
+                    "./images/" + artista[e.id][0] + ".jpg";
+                document.querySelector(".artista-info-name").innerHTML =
+                    artista[e.id][1];
+                document.querySelector(".artista-info-desc").innerHTML =
+                    artista[e.id][2];
+
+                document.getElementById("icon").style = "opacity: 1";
+                document.querySelector(".artista-info").style = "opacity: 1";
+            }, 0);
+        });
+    });
+
+    const fadeElements = document.querySelectorAll(".fade-in");
+
+    function checkFadeElements() {
+        for (let i = 0; i < fadeElements.length; i++) {
+            const element = fadeElements[i];
+            const elementTop = element.getBoundingClientRect().top;
+
+            if (elementTop < window.innerHeight) {
+                element.classList.add("appear");
+            }
+        }
+    }
+
+    window.addEventListener("scroll", checkFadeElements);
+    window.addEventListener("resize", checkFadeElements);
+
+    checkFadeElements();
+</script>

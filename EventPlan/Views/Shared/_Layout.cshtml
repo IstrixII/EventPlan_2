@@ -2,7 +2,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>@ViewData["Title"] - EventPlan</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -13,7 +14,7 @@
 <body>
     <header>
         <nav class="navbar d-flex container-fluid">
-            <!-- offcanvas -->
+@*             <!-- offcanvas -->
             <div class="d-flex offcanvas-logo">
                 <div class="sidebar-botao">
                     <button class="btn btn-outline-secondary h-100 d-inline-block sidebar-botao"
@@ -51,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> *@
                 <!-- Logo -->
                 <div class="icone">
                     <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
@@ -61,11 +62,17 @@
                              width="176"
                              height="41" />
                     </a>
-                </div>
-            </div>
-            @* Teste *@
-             <a class="navbar-brand" asp-area="" asp-controller="CrudUser" asp-action="Index">teste</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Eventos" asp-action="Index">
+                    Eventos
+                </a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Sobre">
+                    Sobre
+                </a>
+                <a class="navbar-brand" asp-area="" asp-controller="CrudUser" asp-action="Index">
+                    Usuarios
+                </a>
 
+                </div>
 
             <!-- Pesquisa -->
             <div class="d-flex pesquisa-perfil">

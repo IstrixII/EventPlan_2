@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Teste1.Models;
+using Teste1.Views.Logins;
 
 namespace Teste1.Controllers
 {
@@ -15,7 +16,6 @@ namespace Teste1.Controllers
         }
 
         // GET: Login
-        [HttpGet]
         [HttpGet]
         public IActionResult Index()
         {
@@ -81,13 +81,30 @@ namespace Teste1.Controllers
             }
         }
 
-        [HttpGet]
-        public IActionResult AlterarSenha()
-        {
-            return View("UpdateSenha");
-        }
+        //[HttpPost]
+        //public IActionResult Login(Models.LoginModel loginModel)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        Pessoa pessoa = GetPessoaByEmail(loginModel.Email);
 
-       
+        //        if (pessoa != null && pessoa.Senha == loginModel.Senha)
+        //        {
+        //            HttpContext.Session.SetInt32("UserId", pessoa.Id_pessoa);
+        //            return RedirectToAction("Index", "Home");
+        //        }
+        //        else
+        //        {
+        //            // Display invalid login error message
+        //            ViewBag.ErrorMessage = "Email ou Senha invalidos";
+        //        }
+        //    }
+
+        //    return View(loginModel);
+        //}
+
+
+
 
 
 

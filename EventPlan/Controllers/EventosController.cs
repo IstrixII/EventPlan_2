@@ -11,5 +11,10 @@ namespace Teste1.Controllers
         }
 
 
+        public IActionResult EventoX()
+        {
+            return View("EventoX");
+        }
+
     }
 }

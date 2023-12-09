@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xPDe13avhodPnoH7uh5W5egI6P8ovbFw9NAUN7ZoS7Y=",
+  "Hash": "oYsuMtvASb13ZJ9O3PWcRm9czghNsrGdmvvjnyYLceU=",
   "Source": "Teste1",
   "BasePath": "_content/Teste1",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style-evento.css"
+    },
+    {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-ListaEventos.css",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "css/style-ListaEventos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style-ListaEventos.css"
     },
     {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-login.css",
@@ -593,6 +610,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\DuaLipaIcon.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\embalossabadonoite-palaciodasartes-eventim-profile - Copia.jpg",
+      "SourceId": "Teste1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\",
+      "BasePath": "_content/Teste1",
+      "RelativePath": "img/embalossabadonoite-palaciodasartes-eventim-profile - Copia.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\embalossabadonoite-palaciodasartes-eventim-profile - Copia.jpg"
     },
     {
       "Identity": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\embalossabadonoite-palaciodasartes-eventim-profile.jpg",

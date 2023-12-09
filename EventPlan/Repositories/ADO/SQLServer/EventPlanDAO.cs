@@ -27,7 +27,7 @@ namespace Teste1.Repositories.ADO.SQLServer
                 using (SqlCommand command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select id_pessoa,nome, cpf, data_nascimento,contato,email,senha from tb_pessoa;";
+                    command.CommandText = "select id_pessoa,nome, cpf, data_nascimento,contato,email,senha,ativo from tb_pessoa;";
 
                     SqlDataReader dr = command.ExecuteReader();
 
@@ -41,6 +41,7 @@ namespace Teste1.Repositories.ADO.SQLServer
                         pessoa.DataNascimento = (DateTime)dr["data_nascimento"];
                         pessoa.Email = (string)dr["Email"];
                         pessoa.Contato = (string)dr["Contato"];
+                        pessoa.Ativo = (bool)dr["ativo"];
 
                         pessoas.Add(pessoa);
                     }
@@ -62,7 +63,7 @@ namespace Teste1.Repositories.ADO.SQLServer
                 using (SqlCommand command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "SELECT id_pessoa, nome, cpf, data_nascimento, contato, email FROM tb_pessoa WHERE id_pessoa = @id_pessoa;";
+                    command.CommandText = "SELECT id_pessoa, nome, cpf, data_nascimento, contato, email, ativo FROM tb_pessoa WHERE id_pessoa = @id_pessoa;";
                     command.Parameters.Add(new SqlParameter("@id_pessoa", System.Data.SqlDbType.Int)).Value = id_pessoa;
 
                     SqlDataReader dr = command.ExecuteReader();
@@ -71,11 +72,13 @@ namespace Teste1.Repositories.ADO.SQLServer
                     {
                         pessoa.Id_pessoa = (int)dr["id_pessoa"];
                         pessoa.Nome = dr["nome"].ToString();
-                        pessoa.Cpf = dr["cpf"].ToString(); 
+                        pessoa.Cpf = dr["cpf"].ToString();
                         pessoa.DataNascimento = (DateTime)dr["data_nascimento"];
-                        pessoa.Contato = dr["contato"].ToString(); 
-                        pessoa.Email = dr["email"].ToString(); 
+                        pessoa.Contato = dr["contato"].ToString();
+                        pessoa.Email = dr["email"].ToString();
+                        pessoa.Ativo = (bool)dr["ativo"]; 
                     }
+
                 }
             }
 
@@ -126,6 +129,8 @@ namespace Teste1.Repositories.ADO.SQLServer
             }
         }
 
+        
+
         //Update User
         public void updatePessoa(int id_pessoa, Pessoa pessoa)
         {
@@ -136,15 +141,14 @@ namespace Teste1.Repositories.ADO.SQLServer
                 using (SqlCommand command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "UPDATE tb_pessoa SET nome = @Nome, cpf = @Cpf, dataNascimento = @DataNascimento, contato = @Contato, email = @Email WHERE id_pessoa = @IdPessoa;";
+                    command.CommandText = "UPDATE tb_pessoa SET nome = @Nome, cpf = @Cpf, data_nascimento = @Data_nascimento, contato = @Contato, email = @Email WHERE id_pessoa = @Id_pessoa;";
 
                     command.Parameters.Add(new SqlParameter("@Nome", System.Data.SqlDbType.VarChar)).Value = pessoa.Nome;
                     command.Parameters.Add(new SqlParameter("@Cpf", System.Data.SqlDbType.VarChar)).Value = pessoa.Cpf;
-                    command.Parameters.Add(new SqlParameter("@DataNascimento", System.Data.SqlDbType.Date)).Value = pessoa.DataNascimento;
+                    command.Parameters.Add(new SqlParameter("@Data_nascimento", System.Data.SqlDbType.DateTime)).Value = pessoa.DataNascimento;
                     command.Parameters.Add(new SqlParameter("@Contato", System.Data.SqlDbType.VarChar)).Value = pessoa.Contato;
                     command.Parameters.Add(new SqlParameter("@Email", System.Data.SqlDbType.VarChar)).Value = pessoa.Email;
-                    command.Parameters.Add(new SqlParameter("@IdPessoa", System.Data.SqlDbType.Int)).Value = id_pessoa;
-
+                    command.Parameters.Add(new SqlParameter("@Id_pessoa", System.Data.SqlDbType.Int)).Value = id_pessoa;
                     command.ExecuteNonQuery();
                 }
             }
@@ -171,14 +175,9 @@ namespace Teste1.Repositories.ADO.SQLServer
 
         }
 
-
-        //Create Evento
-
-
-
-
         //Eventos
 
+        //Create Evento
         public void addEvento(Evento evento)
         {
             using (SqlConnection connection = new SqlConnection(this.connectionString))
@@ -194,15 +193,9 @@ namespace Teste1.Repositories.ADO.SQLServer
                     command.Parameters.Add(new SqlParameter("@Categoria", System.Data.SqlDbType.VarChar)).Value = evento.Categoria;
                     //command.Parameters.Add(new SqlParameter("@Preco", System.Data.SqlDbType.Int)).Value = evento.preco;
                     command.Parameters.Add(new SqlParameter("@Descricao", System.Data.SqlDbType.VarChar)).Value = evento.Descricao;
-                    evento.IdEvento = (int)command.ExecuteScalar();
+                    evento.Id_evento = (int)command.ExecuteScalar();
                 }
             }
         }
-
-
-
-
-
-
     }
 }

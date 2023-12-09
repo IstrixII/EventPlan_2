@@ -38,6 +38,8 @@ namespace Teste1.Models
 
         public string ConfirmacaoSenha { get; set; }
 
+        public bool Ativo { get;set; }
+
 
         public Pessoa()
         {
@@ -51,16 +53,7 @@ namespace Teste1.Models
             Senha = string.Empty;
             Endereco = new Endereco();
             Descricao = string.Empty;
-
         }
-
-
-        //public override bool Equals(object? obj)
-        //{
-        //    return obj is Pessoa pessoa &&
-        //           _email == pessoa._email &&
-        //           _senha == pessoa._senha;
-        //}
 
     }
  }

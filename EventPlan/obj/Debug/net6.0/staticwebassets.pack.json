@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-ListaEventos.css",
+      "PackagePath": "staticwebassets\\css\\style-ListaEventos.css"
+    },
+    {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\css\\style-cadastro.css",
       "PackagePath": "staticwebassets\\css\\style-cadastro.css"
     },
@@ -171,6 +175,10 @@
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\download 2.png",
       "PackagePath": "staticwebassets\\img\\download 2.png"
+    },
+    {
+      "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\embalossabadonoite-palaciodasartes-eventim-profile - Copia.jpg",
+      "PackagePath": "staticwebassets\\img\\embalossabadonoite-palaciodasartes-eventim-profile - Copia.jpg"
     },
     {
       "Id": "C:\\Users\\rhian\\Desktop\\EventPlan_2\\EventPlan\\wwwroot\\img\\embalossabadonoite-palaciodasartes-eventim-profile.jpg",

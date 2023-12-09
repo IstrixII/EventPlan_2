@@ -28,7 +28,7 @@
 
                 <div class="form-group">
                     <label asp-for="DataNascimento" class="control-label">Data de Nascimento:</label>
-                    <input asp-for="DataNascimento" class="form-control" />
+                    <input asp-for="DataNascimento" class="form-control" type="date" />
                     <span asp-validation-for="DataNascimento" class="text-danger"></span>
                 </div>
 
@@ -65,9 +65,7 @@
                 </div>
 
                 <p class="Conecte">Tem uma conta? <a asp-controller="Logins" asp-action="Index"> Conecte-se</a></p>
-
-            </form>
-            
+            </form>       
     </div>
     </div>
 

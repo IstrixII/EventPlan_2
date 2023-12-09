@@ -1,58 +1,79 @@
 ﻿@model IEnumerable<Teste1.Models.Pessoa>
+
 @{
     <table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cpf)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataNascimento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Contato)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model) {
+        <thead>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id_pessoa)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
-                </td>
-                <td>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id_pessoa)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cpf)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataNascimento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Contato)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Ativo)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id_pessoa)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
                         @Html.DisplayFor(model => item.Cpf)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DataNascimento)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Contato)
-                </td>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataNascimento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Contato)
+                    </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Email)
                     </td>
-                <td>
-                    @Html.ActionLink("Editar", "Edit", new { id_pessoa=item.Id_pessoa }) |
-                    @Html.ActionLink("Detalhes", "Details", new { id_pessoa=item.Id_pessoa }) |
-                    @Html.ActionLink("Ativar/Desativar", "Delete", new {  id_pessoa=item.Id_pessoa }, new { onclick = "return confirm('Deseja desativar este usuario?');"})
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
+                    <td>
+                        @if (item.Ativo)
+                        {
+                            <i class="fas fa-check-circle text-success"></i> <p>Ativo</p>
+                        }
+                        else
+                        {
+                            <i class="fas fa-times-circle text-danger"></i>  <p>Inativo</p>
+                        }
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id_pessoa=item.Id_pessoa }) |
+                        @Html.ActionLink("Detalhes", "Details", new { id_pessoa=item.Id_pessoa }) |
+                        @if (item.Ativo)
+                        {
+                            @Html.ActionLink("Desativar", "Delete", new { id_pessoa = item.Id_pessoa }, new { onclick = "return confirm('Deseja desativar este usuário?');" })
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Ativar", "Ativar", new { id_pessoa = item.Id_pessoa }, new { onclick = "return confirm('Deseja ativar este usuário?');" })
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }

@@ -7,9 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Eventos\EventoX.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\EventoX.cshtml" />
   </ItemGroup>
 
 </Project>

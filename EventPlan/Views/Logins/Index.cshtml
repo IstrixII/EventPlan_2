@@ -1,11 +1,8 @@
-﻿@model Teste1.Models.Pessoa
+﻿@model Teste1.Models.LoginModel
 @{
     ViewData["Title"] = "Login";
 }
 @{
-
-
-
     <link rel="stylesheet" href="~/css/style-login.css" asp-append-version="true" />
 
     <main>
@@ -18,16 +15,16 @@
                 </div>
 
                 <form method="post" asp-action="Login">
-                    <span asp-validation-for="Nome" class="text-danger"></span>
+                    <span asp-validation-for="Email" class="text-danger"></span>
                     <div class="label-float">
-                        <label asp-for="Email" id="labelEmail" class="control-label">E-mail:</label>
-                        <input asp-for="Email" class="form-control" />
+                        <input asp-for="Email" id="labelEmail" class="form-control" placeholder = "" />
+                        <label asp-for="Email"  class="control-label">E-mail:</label>
                         <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
 
                     <div class="label-float">
-                        <label asp-for="Senha" id="senha" class="control-label">Senha:</label>
-                        <input asp-for="Senha" type="password" class="form-control" />
+                        <input asp-for="Senha" type="password" id="senha"  placeholder=" " />
+                        <label asp-for="Senha"  class="control-label">Senha:</label>
                         <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
                         <span asp-validation-for="Senha" class="text-danger"></span>
                         <a class="Esqueceu" asp-action="AlterarSenha">Esqueceu a senha?</a>

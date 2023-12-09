@@ -1,0 +1,54 @@
+﻿.accordion {
+    margin: 0 120px 0 160px;
+    padding-top: 30px;
+    border-radius: #fff;
+}
+
+.accordion-header {
+    width: 150px;
+    background: rgba(231, 72, 14, 0.25);
+}
+
+.accordion-button {
+    background: rgba(231, 72, 14, 0.25);
+    width: 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+.accordion-body {
+    background: rgba(231, 72, 14, 0.25);
+    border-radius: 0 15px 15px 15px;
+}
+
+.accordion {
+    --bs-accordion-active-bg: rgba(231, 72, 14, 0.25);
+}
+
+.accordion-body div {
+    padding: 0 3rem;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a:visited{
+    color:aliceblue;
+}
+
+.preco {
+    width: 25%;
+    border-radius: 8px;
+    border-color: rgba(231, 72, 14, 0.25);
+}
+
+
+.cards-main {
+    padding-left: 0.5rem;
+}
+
+.cards-home {
+    margin-left: 150px;
+    margin-top: 60px;
+    display: inline-block;
+}
